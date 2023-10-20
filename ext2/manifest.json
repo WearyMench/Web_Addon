@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox tabs to Twicht",
+  "version": "0.0.1",
+  "description": "Copies the Title and Url of the currently selected tab to Twicht.",
+  "icons": {
+    "64": "icons/twitch.png"
+  },
+  "permissions": ["tabs", "contextMenus", "clipboardWrite"],
+  "background": {
+    "scripts": ["app.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "borderify@example.com"
+    }
+  },
+  "content_scripts": [],
+  "browser_action": {
+    "default_icon": {
+      "64": "icons/twitch.png"
+    }
+  }
+}

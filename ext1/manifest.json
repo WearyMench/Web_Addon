@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Border",
+  "version": "1.0",
+  "description": "Adds a red border to all webpages matching twitch.tv/mbcrump",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/mbcrump"],
+      "js": ["app.js"]
+    }
+  ]
+}

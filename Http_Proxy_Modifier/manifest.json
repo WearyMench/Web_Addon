@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "HTTP Proxy Modifier",
+  "version": "1.0",
+  "permissions": ["proxy"],
+  "background": {
+    "scripts": ["background_tst.js"],
+    "persistent": false
+  }
+}
